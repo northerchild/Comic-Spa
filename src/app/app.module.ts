@@ -13,6 +13,7 @@ import { NavbarComponent } from './componets/shared/navbar/navbar.component';
 import { HomeComponent } from './componets/home/home.component';
 import { HeroesComponent } from './componets/heroes/heroes.component';
 import { AboutComponent } from './componets/about/about.component';
+import { HeroeComponent } from './componets/heroe/heroe.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AboutComponent } from './componets/about/about.component';
     NavbarComponent,
     HomeComponent,
     HeroesComponent,
-    AboutComponent
+    AboutComponent,
+    HeroeComponent
   ],
   imports: [
     BrowserModule,
