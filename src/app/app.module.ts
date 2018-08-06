@@ -6,7 +6,7 @@ import { HttpModule } from '@angular/http';
 //Rutas
 import { APP_ROUTING } from './app.routes';
 //Servicios
-
+import { HeroService } from './services/heroes.service';
 //Componentes
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componets/shared/navbar/navbar.component';
@@ -28,7 +28,7 @@ import { AboutComponent } from './componets/about/about.component';
     HttpModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [HeroService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
