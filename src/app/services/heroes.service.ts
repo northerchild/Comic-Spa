@@ -61,6 +61,9 @@ export class HeroService {
    getHeroes():Heroes[]{
    	return this.heroes;
    }
+   getHeroe(i:string){
+     return this.heroes[i];
+   }
 
 }
 
