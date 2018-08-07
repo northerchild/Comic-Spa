@@ -11,8 +11,8 @@ import { HeroService } from './services/heroes.service';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componets/shared/navbar/navbar.component';
 import { HomeComponent } from './componets/home/home.component';
-import { HeroesComponent } from './componets/heroes/heroes.component';
 import { AboutComponent } from './componets/about/about.component';
+import { HeroesComponent } from './componets/heroes/heroes.component';
 import { HeroeComponent } from './componets/heroe/heroe.component';
 
 @NgModule({
