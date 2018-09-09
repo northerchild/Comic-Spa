@@ -78,6 +78,7 @@ export class HeroService {
 
 }
 
+
 export interface Heroes{
 	nombre:string;
 	bio:string;
